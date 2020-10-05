@@ -5,8 +5,8 @@
     </div>
 
     <!-- 購物車頁面 start -->
-    <div class="container" v-if="carts.length">
-      <div class="row justify-content-center my-5">
+    <div class="container cart" v-if="carts.length">
+      <div class="row justify-content-center pt-5">
         <div class="col-md-6">
           <div class="text-right mb-3">
             <button type="button" class="btn btn-outline-danger btn-sm" @click="removeAllCartItem">
@@ -83,7 +83,7 @@
     </div>
     <!-- 購物車頁面 end -->
 
-    <div class="container h-100" v-else>
+    <div class="container cart h-100" v-else>
       <div class="row p-5" >
         <div class="col-md-8 mx-auto text-center py-5">
           <h3 class="mb-5">您的購物車沒有商品唷，請回商品頁面選購吧～</h3>
@@ -211,3 +211,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+  .cart {
+    min-height: calc(100vh - 268px);
+  }
+</style>

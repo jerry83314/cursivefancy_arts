@@ -12,13 +12,13 @@
               <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img :src="`${ product.imageUrl }`" class="d-block w-100" alt="" />
+                    <img :src="`${ product.imageUrl }`" class="d-block w-100" :alt="`${ product.title }`" />
                   </div>
                   <div class="carousel-item">
-                    <img :src="`${ product.imageUrl }`" class="d-block w-100" alt="" />
+                    <img :src="`${ product.imageUrl }`" class="d-block w-100" :alt="`${ product.title }`" />
                   </div>
                   <div class="carousel-item">
-                    <img :src="`${ product.imageUrl }`" class="d-block w-100" alt="" />
+                    <img :src="`${ product.imageUrl }`" class="d-block w-100" :alt="`${ product.title }`" />
                   </div>
                 </div>
                 <a
@@ -56,9 +56,9 @@
               <h2 class="font-weight-bold h1 my-2 text-gray text-left">{{ product.title }}</h2>
               <p class="text-main text-left">{{ product.content }}</p>
               <p class="mb-0 text-muted text-right">
-                <del>NT$ {{ product.origin_price }}</del>
+                <del>NT$ {{ product.origin_price | thousands }}</del>
               </p>
-              <p class="h4 font-weight-bold text-right">NT$ {{ product.price }}</p>
+              <p class="h4 font-weight-bold text-right">NT$ {{ product.price | thousands }}</p>
               <div class="d-flex align-items-center mb-3">
                 <div class="input-group my-3 mr-2 bg-light rounded">
                   <div class="input-group-prepend">
@@ -114,12 +114,12 @@
           <div class="col-md-4 mb-sm-5">
             <div data-aos="fade-up" class="news__item">
               <a target="_blank" href="http://www.artist-magazine.com/edcontent_d.php?lang=tw&tb=8&id=11682&fbclid=IwAR3MSo-2Rg8hjm0-KxFZdCBtZj3fMSK6SaZu3yRTMw4EgqmrPjY477LFPhs">
-                <div class="bg-cover" style="width: 100%; height: 300px; background-image: url(http://www.artist-magazine.com/archive/image/edcontent8/54334502.jpg);"></div>
+                <div class="bg-cover" style="width: 100%; height: 300px; background-image: url(https://hexschool-api.s3.us-west-2.amazonaws.com/custom/TAEZ89lMH7G2PVWl8B8xvabarC9oCO7C9XLrsVdH9kUQ46d4Sx9d3l3Bx1MkMR1NWJ2nUhYLeyhcM6INIqCW1JXTFuvd027ncKG9BfCM8f0qD4ea1BwRzrrYnQJfsw9K.jpg);"></div>
               </a>
               <div class="news__item__content d-flex">
                 <div class="news__item__content__title">
-                  <a target="_blank" href="http://www.artist-magazine.com/edcontent_d.php?lang=tw&tb=8&id=11682&fbclid=IwAR3MSo-2Rg8hjm0-KxFZdCBtZj3fMSK6SaZu3yRTMw4EgqmrPjY477LFPhs" class="d-block text-gray">離奇的神駒：歐洲藝術中的獨角獸母題</a>
-                  <p class="text-main">「獨角獸」的形象早在西元前3000年已普遍出現在各種古文明。最早在希臘文學中對「獨角」動物的敘述出自活躍於西元前4世紀的史家克忒西阿斯（Ctesias），他描述的獨角獸是一種與馬等大、紫首、白身、藍眼、額前有肘長獸角，角尖處為朱色、中段為黑色、根底為白色的「印度野驢」（Indianwild ass）。</p>
+                  <a target="_blank" href="http://www.artist-magazine.com/edcontent_d.php?lang=tw&tb=8&id=11682&fbclid=IwAR3MSo-2Rg8hjm0-KxFZdCBtZj3fMSK6SaZu3yRTMw4EgqmrPjY477LFPhs" class="d-block text-gray text-left">離奇的神駒：歐洲藝術中的獨角獸母題</a>
+                  <p class="text-main text-left">「獨角獸」的形象早在西元前3000年已普遍出現在各種古文明。最早在希臘文學中對「獨角」動物的敘述出自活躍於西元前4世紀的史家克忒西阿斯（Ctesias），他描述的獨角獸是一種與馬等大、紫首、白身、藍眼、額前有肘長獸角，角尖處為朱色、中段為黑色、根底為白色的「印度野驢」（Indianwild ass）。</p>
                 </div>
               </div>
               <div class="news__item__btn d-flex align-items-center mt-sm-3">
@@ -131,12 +131,12 @@
           <div class="col-md-4 mt-4 mt-sm-0">
             <div data-aos="fade-up" class="news__item h-100">
               <a target="_blank" href="https://arthistorystrolls.com/2020/04/16/%e4%b8%8d%e6%b8%9b%e9%a2%a8%e9%9f%bb%ef%bc%9a-%e6%97%a5%e6%9c%ac%e6%89%8b%e5%b7%a5%e4%b8%8a%e8%89%b2%e8%9b%8b%e7%99%bd%e7%85%a7%e7%89%87%e4%b8%ad%e7%9a%84%e9%8f%a1%e7%be%8e%e4%ba%ba/?fbclid=IwAR3670rMkUBs89UC4SrdnEK6nB4b5KTbNBpMlw8_Fdmw072ul6emwHNsucs">
-                <div class="bg-cover" style="width: 100%; height: 300px; background-image: url(https://arthistorystroll.files.wordpress.com/2020/03/1-1.jpg);"></div>
+                <div class="bg-cover" style="width: 100%; height: 300px; background-image: url(https://hexschool-api.s3.us-west-2.amazonaws.com/custom/UmFpA3aY1EnK9Ti0GnkQvcgNnckBmr7hc8DzMPz6GtvQcbFggSnKBYAHuhTSErXNMe6QVwqKa0QfX7EI1FMjHyCjwAeZ6loefRsoNjw5B14EaanKSsQ4bFLYr9Uz59yS.jpg);"></div>
               </a>
               <div class="news__item__content d-flex">
                 <div class="news__item__content__title">
-                  <a target="_blank" href="https://arthistorystrolls.com/2020/04/16/%e4%b8%8d%e6%b8%9b%e9%a2%a8%e9%9f%bb%ef%bc%9a-%e6%97%a5%e6%9c%ac%e6%89%8b%e5%b7%a5%e4%b8%8a%e8%89%b2%e8%9b%8b%e7%99%bd%e7%85%a7%e7%89%87%e4%b8%ad%e7%9a%84%e9%8f%a1%e7%be%8e%e4%ba%ba/?fbclid=IwAR3670rMkUBs89UC4SrdnEK6nB4b5KTbNBpMlw8_Fdmw072ul6emwHNsucs" class="d-block text-gray">不減風韻：日本手工上色蛋白照片中的鏡美人</a>
-                  <p class="text-main">曾有那麼一段時間，許多遊客藉著日本觀光之際，大肆採購在日本隨處可見的藥妝店流行產品。就筆者個人經驗與觀察，女性顧客所佔比例尤為大成。日本在時尚、彩妝方面的關注與投入，是世人有目共睹的。我想，這是除了在文化上所表現出的細膩講究，對精緻與美的追求，實則深深存於大和民族的遺傳因子之中。</p>
+                  <a target="_blank" href="https://arthistorystrolls.com/2020/04/16/%e4%b8%8d%e6%b8%9b%e9%a2%a8%e9%9f%bb%ef%bc%9a-%e6%97%a5%e6%9c%ac%e6%89%8b%e5%b7%a5%e4%b8%8a%e8%89%b2%e8%9b%8b%e7%99%bd%e7%85%a7%e7%89%87%e4%b8%ad%e7%9a%84%e9%8f%a1%e7%be%8e%e4%ba%ba/?fbclid=IwAR3670rMkUBs89UC4SrdnEK6nB4b5KTbNBpMlw8_Fdmw072ul6emwHNsucs" class="d-block text-gray text-left">不減風韻：日本手工上色蛋白照片中的鏡美人</a>
+                  <p class="text-main text-left">曾有那麼一段時間，許多遊客藉著日本觀光之際，大肆採購在日本隨處可見的藥妝店流行產品。就筆者個人經驗與觀察，女性顧客所佔比例尤為大成。日本在時尚、彩妝方面的關注與投入，是世人有目共睹的。我想，這是除了在文化上所表現出的細膩講究，對精緻與美的追求，實則深深存於大和民族的遺傳因子之中。</p>
                 </div>
               </div>
               <div class="news__item__btn d-flex align-items-center">
@@ -148,12 +148,12 @@
           <div class="col-md-4 mt-4 mt-sm-0">
             <div data-aos="fade-up" class="news__item">
               <a target="_blank" href="https://arthistorystrolls.com/2020/06/18/%e5%89%9d%e7%b9%ad%e6%8a%bd%e7%b5%b2%ef%bc%9a-%e6%97%a5%e6%9c%ac%e6%89%8b%e5%b7%a5%e4%b8%8a%e8%89%b2%e8%9b%8b%e7%99%bd%e7%85%a7%e7%89%87%e7%9a%84%e6%a1%91%e7%b9%94%e5%9c%96/">
-                <div class="bg-cover" style="width: 100%; height: 300px; background-image: url(https://arthistorystroll.files.wordpress.com/2020/06/3-2.jpg);"></div>
+                <div class="bg-cover" style="width: 100%; height: 300px; background-image: url(https://hexschool-api.s3.us-west-2.amazonaws.com/custom/8pOQy728nTugUY28wNzPZNeZrDcDtesqC2ZUthNTXj2iKRNRFqxPOs1lhhXVu3Opv9UAZec7WtzlcGI1d4UijrvgYR1GwCQ1W3kD2kHeRQdn38Nfw23Sj03qq3NHCUrL.jpg);"></div>
               </a>
               <div class="news__item__content d-flex">
                 <div class="news__item__content__title">
-                  <a target="_blank" href="https://arthistorystrolls.com/2020/06/18/%e5%89%9d%e7%b9%ad%e6%8a%bd%e7%b5%b2%ef%bc%9a-%e6%97%a5%e6%9c%ac%e6%89%8b%e5%b7%a5%e4%b8%8a%e8%89%b2%e8%9b%8b%e7%99%bd%e7%85%a7%e7%89%87%e7%9a%84%e6%a1%91%e7%b9%94%e5%9c%96/" class="d-block text-gray">剝繭抽絲：日本手工上色蛋白照片的桑織圖</a>
-                  <p class="text-main">伊薩貝拉‧露西‧博德（Isabella Lucy Bird，1831-1904）是19世紀的英國女探險家，當她途經栃木，在路途中看到叢叢桑樹：「足見當地有養蠶業。沿路可見白色和硫黃色的蠶繭，置於平盤上曝曬。」到了日本山形縣一個被稱作市野的小村落時，她再次記下眼前所見。</p>
+                  <a target="_blank" href="https://arthistorystrolls.com/2020/06/18/%e5%89%9d%e7%b9%ad%e6%8a%bd%e7%b5%b2%ef%bc%9a-%e6%97%a5%e6%9c%ac%e6%89%8b%e5%b7%a5%e4%b8%8a%e8%89%b2%e8%9b%8b%e7%99%bd%e7%85%a7%e7%89%87%e7%9a%84%e6%a1%91%e7%b9%94%e5%9c%96/" class="d-block text-gray text-left">剝繭抽絲：日本手工上色蛋白照片的桑織圖</a>
+                  <p class="text-main text-left">伊薩貝拉‧露西‧博德（Isabella Lucy Bird，1831-1904）是19世紀的英國女探險家，當她途經栃木，在路途中看到叢叢桑樹：「足見當地有養蠶業。沿路可見白色和硫黃色的蠶繭，置於平盤上曝曬。」到了日本山形縣一個被稱作市野的小村落時，她再次記下眼前所見。</p>
                 </div>
               </div>
               <div class="news__item__btn d-flex align-items-center">

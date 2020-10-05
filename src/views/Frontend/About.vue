@@ -55,7 +55,7 @@
           <img data-aos="fade-up" src="https://hexschool-api.s3.us-west-2.amazonaws.com/custom/jD9ziga8DND7umdJDXNi6js77CvCv1YEJr2934t6OzLSLa3x3cfk1DJxCEfqRyQRfpA00y3tqNdsjSzuq4QQuRwoBczMzwmgg3u6bwgPux67hvWvEzCQDFDlKpGYIQx2.jpg" alt="遇扇坊" class="img-fluid">
         </div>
         <div class="col-md-6 m-auto text-center">
-          <p class="text-main mt-4 mt-sm-0 mb-0">遇扇坊（CursiveFancy)，主營書藝作品，包含扇類（如摺扇、團扇）、傳統書畫（如掛軸、卷軸、對聯），以及畫仙板等各類型制之作。<br>
+          <p class="text-main text-left mt-4 mt-sm-0 mb-0">遇扇坊（CursiveFancy)，主營書藝作品，包含扇類（如摺扇、團扇）、傳統書畫（如掛軸、卷軸、對聯），以及畫仙板等各類型制之作。<br>
             <br>我們的作品，是書道人一筆一畫悉心而就，每一幅筆走龍蛇墨氣舒健之作，皆蘊含獨特韻味，淬冶著書家職人的溫度，以及對藝術的虔誠與熱愛。<br>
             <br>遇扇坊，以「遇」字為精神核心。對我們而言，每件獨特作品與每位收藏者的邂逅，都出自緣分的連繫。欣賞一件佳作，猶如認識一位陪伴我們品味雅興的良友。因此，我們期望收藏者們能在遇扇坊找到專屬於你的典藏品。<br>
             <br>遇扇坊出品形式豐富多樣，內容除了提供客製服務，亦可託付書道家發揮靈感。我們的作品除了用於室內居家擺飾，亦經常作為收藏者與親友間的高雅餽贈之禮。無論是宜室、宜家、或宜人，傳遞著書道家與收藏者每份赤誠濃郁的心意。<br>

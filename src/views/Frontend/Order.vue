@@ -18,7 +18,7 @@
               <validation-provider rules="required" v-slot="{ errors, classes }">
                 <div class="form-group">
                   <label for="name">姓名</label>
-                  <input class="form-control" :class="classes" type="text" placeholder="請輸入姓名" name="姓名" id="text" v-model="form.name">
+                  <input class="form-control" :class="classes" type="text" placeholder="請輸入姓名" name="姓名" id="name" v-model="form.name">
                   <span class="invalid-feedback">{{ errors[0] }}</span>
                 </div>
               </validation-provider>
@@ -65,13 +65,13 @@
               </validation-provider>
 
               <div class="form-group">
-                <label for="address">備註</label>
+                <label for="message">備註</label>
                 <textarea class="form-control" name="message" id="message" v-model="form.message" cols="30"
                   rows="10"></textarea>
               </div>
 
               <div class="text-right">
-                <button type="submit" class="btn btn-primary" :disabled="invalid">送出</button>
+                <button type="submit" class="btn btn-gold" :disabled="invalid">送出</button>
               </div>
             </form>
           </validation-observer>

@@ -32,7 +32,7 @@
                     {{ item.title }}
                     </router-link>
                   </h4>
-                  <p class="text-muted mt-3">{{ item.content }}</p>
+                  <p class="text-muted text-left mt-3">{{ item.content }}</p>
                   <div class="d-flex justify-content-between mb-3">
                     <small class="mb-0"> 售價 : <del>{{ item.origin_price }}</del></small>
                     <p class="font-weight-bold mb-0">特價 : {{ item.price | thousands }}</p>
@@ -42,7 +42,7 @@
                   <router-link class="btn btn-outline-main btn-sm" :to="`/product/${ item.id }`">
                     查看更多
                   </router-link>
-                  <button type="button" class="btn btn-outline-gold btn-sm ml-auto"
+                  <button type="button" class="btn btn-outline-cart btn-sm ml-auto"
                     :disabled="status.loadingItem === item.id"
                     @click="addToCart(item)">
                     <i class="spinner-border spinner-border-sm" v-if="status.loadingItem === item.id"></i>
@@ -182,9 +182,9 @@ export default {
     &__title{
       color: #111;
       &:hover {
-          color: #C2C287;
+          color: #FBC02D;
           text-decoration: none;
-          border-bottom: .5px solid #C2C287;
+          border-bottom: .5px solid #FBC02D;
       }
     }
   }
