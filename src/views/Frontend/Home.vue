@@ -20,7 +20,7 @@
         <div class="col-md-10 mx-auto">
           <div class="row align-items-center">
             <div class="col-md-7">
-              <img data-aos="fade-right" width="100%" src="https://scontent.ftpe9-1.fna.fbcdn.net/v/t1.0-9/82831616_110659107127872_3216225503002230784_o.jpg?_nc_cat=101&_nc_sid=e3f864&_nc_ohc=QLJv6HQV_ycAX-xasHL&_nc_ht=scontent.ftpe9-1.fna&oh=16e71cf2cfb010aedb181deef77075e0&oe=5F7E456F" alt="書道人一筆一畫悉心而就">
+              <img data-aos="fade-right" width="100%" src="https://hexschool-api.s3.us-west-2.amazonaws.com/custom/7OufPJaN5WpC4py0Q1hJ8asNyYwJm4NofsO2NeyZoztl6ra4ivcz8GSCKe65NlNPfGWf7kVEw3pkbKLliATENs6XpSc9w1U79NHZTb1YysK1OZcyHalzuBzhaPYIpxB7.jpg" alt="書道人一筆一畫悉心而就">
             </div>
             <div class="col-md-5">
               <div class="p-4">
@@ -45,7 +45,7 @@
               </div>
             </div>
             <div class="col-md-7">
-              <img data-aos="fade-left" width="100%" src="https://scontent.ftpe9-1.fna.fbcdn.net/v/t1.0-9/96582307_164661005061015_1378655919008645120_o.jpg?_nc_cat=105&_nc_sid=8bfeb9&_nc_ohc=ADjsk8eKjXUAX_ttYkw&_nc_ht=scontent.ftpe9-1.fna&oh=fcbd2e7b8754f5c5378de6d282980f31&oe=5F7E5970" alt="龍蛇墨氣舒健的創作">
+              <img data-aos="fade-left" width="100%" src="https://hexschool-api.s3.us-west-2.amazonaws.com/custom/a8yAMH9KMWcakUmsL6eWatFnRfMf7kvdxFsoLUWwakIWP3N6KFw5ZvoZYdOch7CE4V3dXw7vEoY93Ly2v5cVuCzYsz0RwcmzD5NkX15mmDY8Aew5cEk4CuRIjct1CALr.jpg" alt="龍蛇墨氣舒健的創作">
             </div>
           </div>
         </div>
