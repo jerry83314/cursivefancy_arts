@@ -3,6 +3,7 @@ import App from './App.vue'
 // 套件
 import axios from 'axios'
 import VueAxios from 'vue-axios'
+import VueAnalytics from 'vue-analytics'
 import Loading from 'vue-loading-overlay'
 // Aos scroll animate 套件
 import Aos from 'aos'
@@ -41,6 +42,18 @@ window.$ = $
 
 // Vue.use(Loading)
 Vue.use(VueAxios, axios)
+Vue.use(VueAnalytics, {
+  // 讀取 GA id
+  id: 'G-9QMN0TEYFN',
+  // 在 html 中初始化
+  disableScriptLoader: true,
+  // 路由切換統計
+  router,
+  // 避免 GA onLoad 時，重複統計
+  autoTracking: {
+    pageviewOnLoad: false
+  }
+})
 
 Vue.component('Loading', Loading)
 
