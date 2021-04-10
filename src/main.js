@@ -44,7 +44,7 @@ window.$ = $
 Vue.use(VueAxios, axios)
 Vue.use(VueAnalytics, {
   // 讀取 GA id
-  id: 'G-9QMN0TEYFN',
+  id: 'UA-193991339-1',
   // 在 html 中初始化
   disableScriptLoader: true,
   // 路由切換統計
